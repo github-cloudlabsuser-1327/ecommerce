@@ -18,8 +18,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: npm ci
 
       - name: Finding security and privacy code vulnerabilities
         id: ai_security_check
