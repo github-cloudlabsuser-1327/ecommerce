@@ -15,6 +15,6 @@ jobs:
       - name: Get AI comment
         uses: adanalvarez/openai-security-review@v0
         with:
-          openai-token: ${{ secrets.OPENAI_TOKEN }}
+          openai-token: ${{ secrets.OPENAI_API_KEY }}
           tokens: 2500
           max-files: 5
